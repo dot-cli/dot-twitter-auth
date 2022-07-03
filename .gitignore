@@ -1,0 +1,8 @@
+node_modules
+.tmp
+.sass-cache
+heroku
+/views
+dist
+newrelic_agent.log
+node_modules
