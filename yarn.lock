@@ -2,6 +2,18 @@
 # yarn lockfile v1
 
 
+"@isaacs/ttlcache@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@isaacs/ttlcache/-/ttlcache-1.1.0.tgz#a50f17d241921df8182881bd487ac22f35827eed"
+  integrity sha512-XA1Ema/Bg8CcOvY637PCeYRT+i0ZIjNcOzKXlqk4TvRcNW4RhmSLBULWrVHof45qNspvUp2U4d79paLIS0qTWg==
+
+abort-controller@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/abort-controller/-/abort-controller-3.0.0.tgz#eaf54d53b62bae4138e809ca225c8439a6efb392"
+  integrity sha512-h8lQ8tacZYnR3vNQTgibj+tODHI5/+l06Au2Pcriv/Gmet0eaj4TwWH41sO9wnHDiQsEj19q0drzdWdeAHtweg==
+  dependencies:
+    event-target-shim "^5.0.0"
+
 active-x-obfuscator@0.0.1:
   version "0.0.1"
   resolved "https://registry.npmjs.org/active-x-obfuscator/-/active-x-obfuscator-0.0.1.tgz"
@@ -129,6 +141,11 @@ escape-html@~1.0.3:
   resolved "https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz"
   integrity "sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg= sha512-NiSupZ4OeuGwr68lGIeym/ksIZMJodUGOSCZ/FSnTxcrekbvqrgdUxlJOMpijaKZVjAJrWrGs/6Jy8OMuyj9ow=="
 
+event-target-shim@^5.0.0:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/event-target-shim/-/event-target-shim-5.0.1.tgz#5d4d3ebdf9583d63a5333ce2deb7480ab2b05789"
+  integrity sha512-i/2XbnSz/uxRCU6+NdVJgKWDTM427+MqYbkQzD321DuCQJUqOuJKIA0IM2+W2xtYHdKOmZ4dR6fExsd4SXL+WQ==
+
 express-sslify@^1.2.0:
   version "1.2.0"
   resolved "https://registry.npmjs.org/express-sslify/-/express-sslify-1.2.0.tgz"
@@ -243,6 +260,13 @@ negotiator@0.3.0:
   version "0.3.0"
   resolved "https://registry.npmjs.org/negotiator/-/negotiator-0.3.0.tgz"
   integrity "sha1-cG1pLv7d9XTVfqn7GriaT6fuj2A= sha512-q9wF64uB31BDZQ44DWf+8gE7y8xSpBdREAsJfnBO2WX9ecsutfUO6S9uWEdixlDLOlWaqnlnFXXwZxUUmyLfgg=="
+
+node-fetch@^2.6.1:
+  version "2.6.7"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
+  integrity sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==
+  dependencies:
+    whatwg-url "^5.0.0"
 
 oauth@^0.9.15:
   version "0.9.15"
@@ -361,6 +385,19 @@ tinycolor@0.x:
   resolved "https://registry.npmjs.org/tinycolor/-/tinycolor-0.0.1.tgz"
   integrity "sha1-MgtaUtg6u1l42Bo+iH1K77FaYWQ= sha512-+CorETse1kl98xg0WAzii8DTT4ABF4R3nquhrkIbVGcw1T8JYs5Gfx9xEfGINPUZGDj9C4BmOtuKeaTtuuRolg=="
 
+tr46@~0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/tr46/-/tr46-0.0.3.tgz#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
+  integrity sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==
+
+twitter-api-sdk@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/twitter-api-sdk/-/twitter-api-sdk-1.1.0.tgz#9bcf525a0c3da311683d3a87e74357ba8479ded6"
+  integrity sha512-EmYSUwf1rw57h7fnq8SLtMSt6+8orr1N4q5m5J+R/ZSzvvo3QCCyJC973/OCxH5j9F1iV0vqpLmYh/Yq87XjLA==
+  dependencies:
+    abort-controller "^3.0.0"
+    node-fetch "^2.6.1"
+
 uglify-js@1.2.5:
   version "1.2.5"
   resolved "https://registry.npmjs.org/uglify-js/-/uglify-js-1.2.5.tgz"
@@ -390,6 +427,19 @@ utils-merge@1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz"
   integrity "sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM= sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA=="
+
+webidl-conversions@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-3.0.1.tgz#24534275e2a7bc6be7bc86611cc16ae0a5654871"
+  integrity sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==
+
+whatwg-url@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/whatwg-url/-/whatwg-url-5.0.0.tgz#966454e8765462e37644d3626f6742ce8b70965d"
+  integrity sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==
+  dependencies:
+    tr46 "~0.0.3"
+    webidl-conversions "^3.0.0"
 
 ws@0.4.x:
   version "0.4.32"

@@ -3,12 +3,14 @@
   "version": "0.0.0",
   "main": "server",
   "dependencies": {
+    "@isaacs/ttlcache": "^1.1.0",
     "connect": "^3.7.0",
     "ejs": "^1.0.0",
     "express-sslify": "^1.2.0",
     "express.io": "~1.1.13",
     "lodash": "~2.4.1",
     "oauth": "^0.9.15",
+    "twitter-api-sdk": "^1.1.0",
     "underscore": "^1.6.0"
   },
   "devDependencies": {},
